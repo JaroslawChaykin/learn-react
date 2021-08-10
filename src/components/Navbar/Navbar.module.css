@@ -1,0 +1,31 @@
+.navbar {
+    grid-area:  n;
+}
+
+.nav {
+    /*background: #f5f5f5;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav:first-child {
+    top: 1px;
+}
+.item {
+    color: #b3b3b3;
+    border: 1px solid #b3b3b3;
+    margin-top: -1px;
+}
+.item a:hover {
+    background: #efefef;
+}
+.item a {
+    color: #b3b3b3;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.item a.active {
+    background: #cccccc;
+    color: white;
+}
