@@ -1,16 +1,12 @@
 import React from "react";
 import styles from "./Profile.module.css"
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
         <div>
-            <div>
-                <img src="" alt=""/>
-            </div>
-            <div>
-                ava - description
-            </div>
+            <ProfileInfo />
             <div>
                 new posts
             </div>
